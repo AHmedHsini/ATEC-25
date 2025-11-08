@@ -1,0 +1,264 @@
+{
+  "mission": "HORIZON-1",
+  "system": "ECHO_MIND_VAULT",
+  "export_time": "2025-11-08T21:23:28.506801",
+  "chain_valid": true,
+  "blocks": [
+    {
+      "index": 0,
+      "timestamp": "2025-11-08T21:23:13.018424",
+      "event": "SYSTEM_INIT",
+      "data": {
+        "message": "Echo Mind Vault initialized"
+      },
+      "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "hash": "d3247238d1c09ac3132af19071a69c515663444a53eec1ad8d5c5b6d21e74bb4",
+      "authority": "GENESIS"
+    },
+    {
+      "index": 1,
+      "timestamp": "2025-11-08T21:23:13.468052",
+      "event": "ANOMALY_DETECTED",
+      "data": {
+        "type": "UNAUTHORIZED_COMMAND",
+        "score": "2.511",
+        "severity": "HIGH",
+        "action": "QUARANTINE_TARS-9",
+        "failover_target": "BACKUP-AI",
+        "response_time_ms": "1.70",
+        "sample_features": [
+          51.691638212069236,
+          59.9606992359257,
+          30.091559222155528,
+          100.4891118911974,
+          9.398239745232148
+        ]
+      },
+      "prev_hash": "d3247238d1c09ac3132af19071a69c515663444a53eec1ad8d5c5b6d21e74bb4",
+      "hash": "dc86308d0bff5bb961623e709156b8548af8f63a089520f350a4917c7d6a06a5",
+      "authority": "NODE-1"
+    },
+    {
+      "index": 2,
+      "timestamp": "2025-11-08T21:23:14.978154",
+      "event": "SYSTEM_RECOVERED",
+      "data": {
+        "message": "TARS-9 validated and restored",
+        "incidents_handled": 1
+      },
+      "prev_hash": "dc86308d0bff5bb961623e709156b8548af8f63a089520f350a4917c7d6a06a5",
+      "hash": "b9bd7fa800c9ac93b7dfb7036ce100202b316975379f1240e251cd50b9acc6b5",
+      "authority": "NODE-2"
+    },
+    {
+      "index": 3,
+      "timestamp": "2025-11-08T21:23:15.612561",
+      "event": "ANOMALY_DETECTED",
+      "data": {
+        "type": "MODEL_POISONING",
+        "score": "2.509",
+        "severity": "HIGH",
+        "action": "QUARANTINE_TARS-9",
+        "failover_target": "BACKUP-AI",
+        "response_time_ms": "12.38",
+        "sample_features": [
+          52.424964739769514,
+          60.38244219792725,
+          29.711163843581883,
+          550.9223746671119,
+          54.34755128702157
+        ]
+      },
+      "prev_hash": "b9bd7fa800c9ac93b7dfb7036ce100202b316975379f1240e251cd50b9acc6b5",
+      "hash": "338696be1af3d33d344240a4b95d3853e99bd919825001d6343f322db1acf811",
+      "authority": "NODE-3"
+    },
+    {
+      "index": 4,
+      "timestamp": "2025-11-08T21:23:17.117630",
+      "event": "SYSTEM_RECOVERED",
+      "data": {
+        "message": "TARS-9 validated and restored",
+        "incidents_handled": 2
+      },
+      "prev_hash": "338696be1af3d33d344240a4b95d3853e99bd919825001d6343f322db1acf811",
+      "hash": "35b24e97f73e73ca7135ecdf15764ca654f7064fb18a32dc69d722df99a57405",
+      "authority": "NODE-1"
+    },
+    {
+      "index": 5,
+      "timestamp": "2025-11-08T21:23:17.733124",
+      "event": "ANOMALY_DETECTED",
+      "data": {
+        "type": "TIMING_ATTACK",
+        "score": "2.730",
+        "severity": "HIGH",
+        "action": "QUARANTINE_TARS-9",
+        "failover_target": "BACKUP-AI",
+        "response_time_ms": "1.41",
+        "sample_features": [
+          96.07021398139338,
+          95.00086907239381,
+          85.89838557150131,
+          450.3689433193625,
+          45.681073286117204
+        ]
+      },
+      "prev_hash": "35b24e97f73e73ca7135ecdf15764ca654f7064fb18a32dc69d722df99a57405",
+      "hash": "cdeb07ac69cc9b79d1463696bb8a1ae69d08f4733f873636a833064d66872a65",
+      "authority": "NODE-2"
+    },
+    {
+      "index": 6,
+      "timestamp": "2025-11-08T21:23:19.235222",
+      "event": "SYSTEM_RECOVERED",
+      "data": {
+        "message": "TARS-9 validated and restored",
+        "incidents_handled": 3
+      },
+      "prev_hash": "cdeb07ac69cc9b79d1463696bb8a1ae69d08f4733f873636a833064d66872a65",
+      "hash": "0fe443ca5f931db8d7adff8f0caa1e48635f302aabe14a0c4be10fda7fd796f0",
+      "authority": "NODE-3"
+    },
+    {
+      "index": 7,
+      "timestamp": "2025-11-08T21:23:19.934159",
+      "event": "ANOMALY_DETECTED",
+      "data": {
+        "type": "TIMING_ATTACK",
+        "score": "2.405",
+        "severity": "HIGH",
+        "action": "QUARANTINE_TARS-9",
+        "failover_target": "BACKUP-AI",
+        "response_time_ms": "48.37",
+        "sample_features": [
+          49.712575610228456,
+          62.41467197633151,
+          29.59422021528228,
+          98.00395054868005,
+          9.015904192398855
+        ]
+      },
+      "prev_hash": "0fe443ca5f931db8d7adff8f0caa1e48635f302aabe14a0c4be10fda7fd796f0",
+      "hash": "46581fa3b6e44222a9d95f384a78156ba13a62d3f3623c37391a9d11decffa3b",
+      "authority": "NODE-1"
+    },
+    {
+      "index": 8,
+      "timestamp": "2025-11-08T21:23:21.461509",
+      "event": "SYSTEM_RECOVERED",
+      "data": {
+        "message": "TARS-9 validated and restored",
+        "incidents_handled": 4
+      },
+      "prev_hash": "46581fa3b6e44222a9d95f384a78156ba13a62d3f3623c37391a9d11decffa3b",
+      "hash": "ef7a6eaca88df91d478d46c534ed42dbc67a90b2a60ed67b954885fefef62fff",
+      "authority": "NODE-2"
+    },
+    {
+      "index": 9,
+      "timestamp": "2025-11-08T21:23:21.772358",
+      "event": "ANOMALY_DETECTED",
+      "data": {
+        "type": "TIMING_ATTACK",
+        "score": "2.453",
+        "severity": "HIGH",
+        "action": "QUARANTINE_TARS-9",
+        "failover_target": "BACKUP-AI",
+        "response_time_ms": "1.86",
+        "sample_features": [
+          49.96793175129184,
+          60.84141058125724,
+          30.648917724776975,
+          99.02980955330533,
+          9.124928247535015
+        ]
+      },
+      "prev_hash": "ef7a6eaca88df91d478d46c534ed42dbc67a90b2a60ed67b954885fefef62fff",
+      "hash": "a90b279e16a853edbf9cdb6455db47512c7419d6e0752b4adbe3d6837a831d61",
+      "authority": "NODE-3"
+    },
+    {
+      "index": 10,
+      "timestamp": "2025-11-08T21:23:23.278298",
+      "event": "SYSTEM_RECOVERED",
+      "data": {
+        "message": "TARS-9 validated and restored",
+        "incidents_handled": 5
+      },
+      "prev_hash": "a90b279e16a853edbf9cdb6455db47512c7419d6e0752b4adbe3d6837a831d61",
+      "hash": "ab3fcf5172e9102802ca8b94d4048e9246a61513eb92864594b8f144501cbd47",
+      "authority": "NODE-1"
+    },
+    {
+      "index": 11,
+      "timestamp": "2025-11-08T21:23:24.229087",
+      "event": "ANOMALY_DETECTED",
+      "data": {
+        "type": "TIMING_ATTACK",
+        "score": "2.033",
+        "severity": "HIGH",
+        "action": "QUARANTINE_TARS-9",
+        "failover_target": "BACKUP-AI",
+        "response_time_ms": "4.16",
+        "sample_features": [
+          44.06478535010777,
+          92.37023407372578,
+          23.797488210495885,
+          127.78342597487706,
+          15.066841751104723
+        ]
+      },
+      "prev_hash": "ab3fcf5172e9102802ca8b94d4048e9246a61513eb92864594b8f144501cbd47",
+      "hash": "09fd81192efd07f61f908c2cd6a002c5eefc95c42f0bb1575c5ba54b0f902e94",
+      "authority": "NODE-2"
+    },
+    {
+      "index": 12,
+      "timestamp": "2025-11-08T21:23:25.732919",
+      "event": "SYSTEM_RECOVERED",
+      "data": {
+        "message": "TARS-9 validated and restored",
+        "incidents_handled": 6
+      },
+      "prev_hash": "09fd81192efd07f61f908c2cd6a002c5eefc95c42f0bb1575c5ba54b0f902e94",
+      "hash": "8d0be44b7912397586f1912642fa67c1dff51b87ad17fd8a2508a355343e039f",
+      "authority": "NODE-3"
+    },
+    {
+      "index": 13,
+      "timestamp": "2025-11-08T21:23:26.666556",
+      "event": "ANOMALY_DETECTED",
+      "data": {
+        "type": "MEMORY_CORRUPTION",
+        "score": "2.579",
+        "severity": "HIGH",
+        "action": "QUARANTINE_TARS-9",
+        "failover_target": "BACKUP-AI",
+        "response_time_ms": "1.33",
+        "sample_features": [
+          51.22897350661628,
+          58.7790312175532,
+          29.931164603499347,
+          98.75628869383118,
+          9.111641952791494
+        ]
+      },
+      "prev_hash": "8d0be44b7912397586f1912642fa67c1dff51b87ad17fd8a2508a355343e039f",
+      "hash": "83e802cd5c9d7d79a8015a04decbaf69c7d91b1b397440817c288452fb2db31b",
+      "authority": "NODE-1"
+    },
+    {
+      "index": 14,
+      "timestamp": "2025-11-08T21:23:28.174836",
+      "event": "SYSTEM_RECOVERED",
+      "data": {
+        "message": "TARS-9 validated and restored",
+        "incidents_handled": 7
+      },
+      "prev_hash": "83e802cd5c9d7d79a8015a04decbaf69c7d91b1b397440817c288452fb2db31b",
+      "hash": "911efae34a5f62d66d0e4f54f32a4f57efca5c3420f88b273a6daaeace5b6462",
+      "authority": "NODE-2"
+    }
+  ]
+}
